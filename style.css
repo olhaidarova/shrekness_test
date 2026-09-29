@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    width: 400px;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.yes {
+    background-color: green;
+}
+
+.red-yes {
+    background-color: red;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
